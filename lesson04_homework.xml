@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Lesson04 Suite">
+  <test thread-count="5" name="Homework Test">
+  
+  <groups>
+      <run>
+      <include name="homework"/>
+      </run>
+  </groups>
+  
+    <classes>
+      <class name="com.neotech.lesson04.Homework1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
